@@ -1,0 +1,12 @@
+2020-10-28 13:16:17 INFO  SearchMovieByTitle:52 - start task
+2020-10-28 13:16:19 INFO  SearchMovieByTitle:54 - opening page for testing https://www.imdb.com/
+2020-10-28 13:16:19 INFO  SearchMovieByTitle:63 - expected page is opened, check by getTitle
+2020-10-28 13:16:19 INFO  SearchMovieByTitle:80 - get element by xpath : //input[@id="suggestion-search"]
+2020-10-28 13:16:21 INFO  SearchMovieByTitle:84 - in field for searching was entered : Back to the Future
+2020-10-28 13:16:21 INFO  SearchMovieByTitle:89 - Open page url : https://www.imdb.com/find?q=Back+to+the+Future&ref_=nv_sr_sm
+2020-10-28 13:16:24 INFO  SearchMovieByTitle:93 - Movie title : [[ChromeDriver: chrome on MAC (fc4f9a6ee5a354931003401ac0e9fca9)] -> link text: Back to the Future] was clicked
+2020-10-28 13:16:24 INFO  SearchMovieByTitle:97 - https://www.imdb.com/title/tt0088763/?ref_=fn_al_tt_1is current url
+2020-10-28 13:16:24 INFO  SearchMovieByTitle:101 - test passed: got the expected page
+2020-10-28 13:16:24 INFO  SearchMovieByTitle:103 - found : Marty McFly, a 17-ye
+2020-10-28 13:16:24 INFO  SearchMovieByTitle:105 - descriptions match
+2020-10-28 13:16:24 INFO  SearchMovieByTitle:111 - task completed
